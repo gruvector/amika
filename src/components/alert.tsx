@@ -22,6 +22,7 @@ export function Alert() {
 
         setTimeout(() => {
           setShownNotification(null);
+          console.log("Show notification");
         }, 8000);
 
         alert.notifications.shift();
