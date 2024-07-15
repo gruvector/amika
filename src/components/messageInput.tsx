@@ -61,6 +61,7 @@ export default function MessageInput({
             break;
           }
           case 'whisper_openai': {
+            console.log("whisper openai");
             console.debug('whisper_openai attempt');
             const wav = new WaveFile();
             wav.fromScratch(1, 16000, '32f', audio);
