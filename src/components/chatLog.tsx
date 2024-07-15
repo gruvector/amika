@@ -25,6 +25,7 @@ export const ChatLog = ({
   };
 
   useEffect(() => {
+    console.log("chat scroll");
     chatScrollRef.current?.scrollIntoView({
       behavior: "auto",
       block: "center",
