@@ -8,6 +8,7 @@ export const AssistantText = ({ message }: { message: string }) => {
   const [unlimited, setUnlimited] = useState(false)
 
   useEffect(() => {
+    console.log("Scroll Smooth");
     scrollRef.current?.scrollIntoView({
       behavior: "smooth",
       block: "center",
