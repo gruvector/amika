@@ -17,6 +17,7 @@ export function AddToHomescreen() {
 
   useEffect(() => {
     if (config("show_add_to_homescreen") !== "true") {
+      console.log("show add to home screen");
       return;
     }
 
