@@ -10,6 +10,7 @@ export const Introduction = ({ open }: {
   const { t } = useTranslation();
 
   if (! opened) {
+    console.log("onClickCopty");
     return null;
   }
 
