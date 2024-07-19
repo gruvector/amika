@@ -57,6 +57,7 @@ export function DebugPane({ onClickClose }: {
   }, []);
 
   function onClickCopy() {
+    console.log("onClickCopty");
     navigator.clipboard.writeText(JSON.stringify((window as any).error_handler_logs));
   }
 
