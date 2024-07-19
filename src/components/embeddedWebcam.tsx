@@ -18,6 +18,7 @@ export function EmbeddedWebcam({
   const [imageData, setImageData] = useState("");
 
   useKeyboardShortcut("Escape", () => {
+    console.log("onClickCopty");
     setWebcamEnabled(false);
   });
 
