@@ -2,6 +2,7 @@ import { buildUrl } from "@/utils/buildUrl";
 
 export const GitHubLink = () => {
   return (
+    <div>
     <a
       draggable={false}
       href="https://github.com/semperai/amica"
@@ -18,5 +19,6 @@ export const GitHubLink = () => {
         <div className="mx-2 text-white font-bold">Open Source</div>
       </div>
     </a>
+    </div>
   );
 };
