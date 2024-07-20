@@ -38,6 +38,7 @@ export default function MessageInput({
     onSpeechStart: () => {
       console.debug('vad', 'on_speech_start');
       console.time('performance_speech');
+      console.log("interval");
     },
     onSpeechEnd: (audio: Float32Array) => {
       console.debug('vad', 'on_speech_end');
