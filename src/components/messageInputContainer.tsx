@@ -22,6 +22,7 @@ export const MessageInputContainer = ({
   const [userMessage, setUserMessage] = useState("");
 
   useEffect(() => {
+    console.log("interval");
     if (!isChatProcessing) {
       setUserMessage("");
     }
