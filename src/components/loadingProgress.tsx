@@ -18,6 +18,7 @@ export function LoadingProgress() {
 
   useEffect(() => {
     const interval = setInterval(() => {
+      console.log("interval");
       if (typeof window !== "undefined") {
         const progress = (window as any).chatvrm_loading_progress;
         const cnt = (window as any).chatvrm_loading_progress_cnt;
