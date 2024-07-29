@@ -100,7 +100,6 @@ export default function Home() {
   }, []);
 
   function toggleTTSMute() {
-    console.log("toggleTTSMute");
     updateConfig('tts_muted', config('tts_muted') === 'true' ? 'false' : 'true')
     setMuted(config('tts_muted') === 'true')
   }
