@@ -120,7 +120,6 @@ export default function Home() {
     // TODO remove in future
     // this change was just to make naming cleaner
     if (config("tts_backend") === 'openai') {
-      console.log("tts_backend_openai");
       updateConfig("tts_backend", "openai_tts");
     }
   }, [bot, viewer]);
