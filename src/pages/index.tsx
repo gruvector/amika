@@ -109,6 +109,7 @@ export default function Home() {
   }
 
   useEffect(() => {
+    console.log("useEffect");
     bot.initialize(
       viewer,
       alert,
