@@ -89,6 +89,7 @@ export default function Home() {
 
   useEffect(() => {
     if (muted === null) {
+      console.log("muteNull");
       setMuted(config('tts_muted') === 'true');
     }
 
