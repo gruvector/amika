@@ -94,6 +94,7 @@ export default function Home() {
     }
 
     if (config("bg_color") !== '') {
+      console.log("config-bg_color");
       document.body.style.backgroundColor = config("bg_color");
     } else {
       document.body.style.backgroundImage = `url(${config("bg_url")})`;
